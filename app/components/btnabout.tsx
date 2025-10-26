@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function btncon(){
+export default function btnabout(){
 
 return(
     <button className="
@@ -30,7 +30,7 @@ return(
             border border-black
               ">
 
-                    <Link href="/contact"> Kontakt</Link>
+                    <Link href="/about">O mě </Link>
      </button>
 )
-};
+}
