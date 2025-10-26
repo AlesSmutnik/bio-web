@@ -37,7 +37,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ defaultMessage }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="border border-[1px] rounded-xl bg-black/45 flex flex-col max-w-[400px] mx-auto p-4">
+    <form onSubmit={handleSubmit} className="border border-[1px] rounded-xl bg-black/45 flex flex-col max-w-[400px] mx-auto p-4 mb-40">
       <section>
         <label htmlFor="name" className="mb-2 font-semibold">Name:</label>
         <input
