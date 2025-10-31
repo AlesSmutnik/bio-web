@@ -49,7 +49,8 @@ export default function Home() {
               flex 
                flex-row 
                 items-center 
-                 justify-center 
+                 justify-center
+                 lg:px-60 
                  ">
                  <Buttoncon />
                   <Buttonab />

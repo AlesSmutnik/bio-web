@@ -193,6 +193,111 @@ export default function Page() {
                 <li>Úpravy šablon WordPress, doplňky v PHP a JS.</li>
                  </ul>
            </div>
+            <div className="
+           mb-35
+            mt-5
+             p-5
+              text-black
+               font-[robotto]
+                text-lg
+                 bg-white/40
+                  rounded-lg
+                   shadow-lg
+                    max-w-3xl
+                     lg:mx-auto 
+                         "                     >
+                <h2 className="
+                text-bold
+                 text-black
+                  text-2xl
+                   text-center
+                    mt-1
+                     mb-2">
+                     🎓 VZDĚLÁNÍ</h2>
+              <ul className="text-center">  
+                <li>Střední odborné učiliště – truhlář</li>
+                </ul>
+           </div>
+   
+            <div className="
+           mb-35
+            mt-5
+             p-5
+              text-black
+               font-[robotto]
+                text-lg
+                 bg-white/40
+                  rounded-lg
+                   shadow-lg
+                    max-w-3xl
+                     lg:mx-auto 
+                         "                     >
+                <h2 className="
+                text-bold
+                 text-black
+                  text-2xl
+                   text-center
+                    mt-1
+                     mb-2">
+                      🌍 JAZYKY</h2>
+              <ul className="text-center">  
+                <li>Čeština - rodilý </li>
+                <li>Angličtina - středně pokročilá</li>
+                <li>Ruština - středně pokrocilá</li>
+                </ul>
+           </div> <div className="
+           mb-35
+            mt-5
+             p-5
+              text-black
+               font-[robotto]
+                text-lg
+                 bg-white/40
+                  rounded-lg
+                   shadow-lg
+                    max-w-3xl
+                     lg:mx-auto 
+                         "                     >
+                <h2 className="
+                text-bold
+                 text-black
+                  text-2xl
+                   text-center
+                    mt-1
+                     mb-2">
+                      💪 SILNÉ STRÁNKY</h2>
+              <ul className="text-center">  
+                <li>Technické a analytické myšlení</li>
+                <li>Zkušený vedoucí pracovník (řízení týmů, organizace práce)</li>
+                <li>Chuť se učit a zlepšovat v IT</li>
+                <li>Kombinace praktické výroby a digitálního vývoje</li>
+                 </ul>
+           </div> 
+           <div className="
+           mb-35
+            mt-5
+             p-5
+              text-black
+               font-[robotto]
+                text-lg
+                 bg-white/40
+                  rounded-lg
+                   shadow-lg
+                    max-w-3xl
+                     lg:mx-auto 
+                         "                     >
+                <h2 className="
+                text-bold
+                 text-black
+                  text-2xl
+                   text-center
+                    mt-1
+                     mb-2">
+                     🚀 CÍL</h2>
+              <ul className="text-center">  
+                <li>Spojit 15 let technických zkušeností s nově získanými IT dovednostmi a stát se součástí vývojového nebo implementačního týmu, který se zaměřuje na moderní technologie a inovace.</li>
+                </ul>
+           </div>
    
  </main>
  

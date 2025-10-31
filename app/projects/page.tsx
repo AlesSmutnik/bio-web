@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-
+import "../globals.css"
+import SparkParticles from "../components/SparkParticles";
 const projects = [
   {
     href: "https://woodooalda.cz/",
@@ -30,22 +31,21 @@ export default function Page() {
     <div className="body text-white text-center mt-10">
       <h1 className="text-3xl font-[roboto] mb-10">Mé projekty</h1>
 
-      <section className="flex flex-wrap justify-center gap-8 p-6 bg-[#606060]/40 shadow-lg shadow-white/70 rounded-xl">
+      <section className="flex flex-wrap justify-center gap-8 mb-50 p-6 bg-[#606060]/40 bg-white/10 rounded-xl shadow-lg shadow-white/70">
         {projects.map((project, index) => (
           <Link
             key={index}
             href={project.href}
             target="_blank"
-            className="flex flex-col items-center justify-center transform hover:scale-105 transition duration-300 ease-in-out shadow-lg shadow-white/70 rounded-xl overflow-hidden"
-          >
+            className="flex flex-col items-center justify-center transform hover:scale-105 transition ease-in-out bg-white/10 rounded-xl shadow-lg shadow-white/70"
+            >
             <Image
               src={project.src}
               alt={project.alt}
               width={200}
-              height={200}
-              className="rounded-xl"
-            />
-          </Link>
+              height={200}             
+            />            
+          </Link>          
         ))}
       </section>
     </div>
